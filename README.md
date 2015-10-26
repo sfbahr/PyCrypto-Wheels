@@ -1,7 +1,7 @@
 # PyCrypto-Wheels
 Built Distributions of PyCrypto on Windows
 
-To install PyCrypto 2.6.1 for Python 3.5 on a 64-bit installation run:
+To install PyCrypto 2.6.1 for a 64-bit Python 3.5 installation run:
 ```
 pip install --use-wheel --no-index --find-links=https://github.com/sfbahr/PyCrypto-Wheels/raw/master/pycrypto-2.6.1-cp35-none-win_amd64.whl pycrypto
 ```
