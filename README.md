@@ -17,3 +17,12 @@ For more info on how I built these and how to build them for yourself: [Stack Ov
 
 
 If you're looking for a built distribution for a different version of PyCrypto or Python, check out [Voidspace](http://www.voidspace.org.uk/python/modules.shtml#pycrypto). I made these originally because Voidspace was not updated with a build for Python 3.5.
+
+## How to build it
+
+Ref the [Marko Rothstein's](https://stackoverflow.com/questions/41843266/microsoft-windows-python-3-6-pycrypto-installation-error) answer. 
+
+1. open "x86_x64 Cross-Tools Command Prompt for VS 2017" with administrator privilege in start menu
+2. set CL=-FI"%VCINSTALLDIR%Tools\MSVC\14.11.25503\include\stdint.h"  **make sure the folder version number is right**
+3. `pip install wheel`
+4. `python setup.py bdist_wheel`
