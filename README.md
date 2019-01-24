@@ -1,3 +1,6 @@
+## Notice: PyCrypto is dead https://github.com/dlitz/pycrypto/issues/238
+I suggest using cryptography or PyCryptodome instead
+
 # PyCrypto-Wheels
 Built Distributions of PyCrypto on Windows
 
